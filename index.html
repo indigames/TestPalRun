@@ -27,7 +27,7 @@
             var loadingBar = document.querySelector("#unity-loading-bar");
             var progressBarFull = document.querySelector("#unity-progress-bar-full");
             var warningBanner = document.querySelector("#unity-warning");
-            var dataFile = "/docs.data.gz";
+            var dataFile = "/docs.data";
             
 			// var c = document.createElement("canvas");
             // var gl = c.getContext("webgl");
@@ -50,8 +50,8 @@
             var loaderUrl = buildUrl + "/docs.loader.js";
             var config = {
                 dataUrl: buildUrl + dataFile,
-                frameworkUrl: "Build/docs.framework.js.gz",
-                codeUrl: "Build/docs.wasm.gz",
+                frameworkUrl: "Build/docs.framework.js",
+                codeUrl: "Build/docs.wasm",
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "DefaultCompany",
                 productName: "PalRun",
