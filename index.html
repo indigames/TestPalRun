@@ -27,7 +27,7 @@
             var loadingBar = document.querySelector("#unity-loading-bar");
             var progressBarFull = document.querySelector("#unity-progress-bar-full");
             var warningBanner = document.querySelector("#unity-warning");
-            var dataFile = "/docs.data";
+            var dataFile = "/PalRun_WebGL.data";
             
 			// var c = document.createElement("canvas");
             // var gl = c.getContext("webgl");
@@ -47,11 +47,11 @@
             function unityShowBanner(msg, type) {
             }
             var buildUrl = "Build";
-            var loaderUrl = buildUrl + "/docs.loader.js";
+            var loaderUrl = buildUrl + "/PalRun_WebGL.loader.js";
             var config = {
                 dataUrl: buildUrl + dataFile,
-                frameworkUrl: "Build/docs.framework.js",
-                codeUrl: "Build/docs.wasm",
+                frameworkUrl: "Build/PalRun_WebGL.framework.js",
+                codeUrl: "Build/PalRun_WebGL.wasm",
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "DefaultCompany",
                 productName: "PalRun",
